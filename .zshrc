@@ -149,3 +149,5 @@ alias mkdir="mkdir -p"     # -p make parent dirs as needed
 alias df="df -h"           # -h prints human readable format
 alias dc="cd"
 
+export PATH="/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.0.0/bin:$PATH"
+export PATH="/Users/lixj/.local/share/gem/ruby/3.0.0/bin/:$PATH"
