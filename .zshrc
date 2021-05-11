@@ -105,6 +105,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 alias zsc="vim ~/.zshrc"
 alias zcs="vim ~/.zshrc"
+alias vimc="vim ~/.vim_runtime/my_configs.vim"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
@@ -112,14 +113,14 @@ alias zcs="vim ~/.zshrc"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('~/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/Users/lixj/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "~/opt/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "~/opt/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "/Users/lixj/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/lixj/opt/anaconda3/etc/profile.d/conda.sh"
     else
-        export PATH="~/opt/anaconda3/bin:$PATH"
+        export PATH="/Users/lixj/opt/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup

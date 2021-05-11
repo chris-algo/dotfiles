@@ -24,3 +24,5 @@ sh make_link.sh
 
 使用主题 `powerlevel10k`：[https://gitee.com/kongren/powerlevel10k]
 
+主题配置文件：[.p10k.zsh](./.p10k.zsh)
+
